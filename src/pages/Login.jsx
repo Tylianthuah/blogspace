@@ -10,10 +10,10 @@ const Login = () => {
         <input required type="email" placeholder="email" />
         <input required type="password" placeholder="password" />
         <button>Login</button>
-        <p>There is an error!!</p>
+        {/* <p>There is an error!!</p> */}
         <span>
-          Don't have an account?{" "}
-          <Link to="/register" className="login-register">
+          You don't have have an account?
+          <Link to="/register" className="login_register">
             Register
           </Link>
         </span>

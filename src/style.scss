@@ -12,7 +12,7 @@ $lightGreen: #b9e7e7;
   justify-content: center;
 
   .container {
-    width: 1024px;
+    width: 1124px;
 
     .link {
       text-decoration: none;
@@ -46,6 +46,11 @@ $lightGreen: #b9e7e7;
           padding: 10px;
           border: none;
           border-bottom: 1px solid gray;
+
+
+          &:focus{
+            outline: none;
+          }
         }
 
         button {
@@ -132,7 +137,7 @@ $lightGreen: #b9e7e7;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 12px;
+      font-size: 15px;
     }
   }
 

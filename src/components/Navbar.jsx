@@ -29,9 +29,11 @@ const Navbar = () => {
           </Link>
           <span>Tylian</span>
           <span>Logout</span>
+          <Link className="link" to="/write">
           <span className="write">
-            <Link className="link" to="/write">Write</Link>
+            Write
           </span>
+          </Link>
         </div>
       </div>
     </div>
